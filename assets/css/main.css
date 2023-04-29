@@ -36,7 +36,7 @@ h2 > a {
 }
 
 h3 {
-    color: var(--st1);
+    color: var(--st0);
     font-family: var(--sans-serif);
     text-align: center;
     margin: 0 0 0 0;
