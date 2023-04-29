@@ -15,10 +15,13 @@ body {
 }
 
 h1 {
-    content: "coolviruses.download™️";
     color: var(--txt);
     font-family: var(--sans-serif);
     text-align: center;
+}
+
+.mobile {
+    display: none;
 }
 
 h2 {
@@ -38,6 +41,14 @@ h2 {
     
     h1 {
         content: "cv.d™️"
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
     }
 
 }
