@@ -28,6 +28,12 @@ h2 {
     margin: 0 0 0 0;
 }
 
+h2 > a {
+    color: var(--st0);
+    font-family: var(--sans-serif);
+    text-decoration: none;
+}
+
 .centerdiv {
     position:absolute;
     left:50%;
