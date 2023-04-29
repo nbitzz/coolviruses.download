@@ -29,9 +29,36 @@ h2 {
 }
 
 h2 > a {
+    transition-duration: 250ms;
     color: var(--st0);
     font-family: var(--sans-serif);
     text-decoration: none;
+    text-decoration: 1px dotted #66AAFF;
+}
+
+h2 > a:hover {
+    transition-duration: 250ms;
+    text-decoration: 1px solid #66AAFF;
+}
+
+h3 {
+    color: var(--st1);
+    font-family: var(--sans-serif);
+    text-align: center;
+    margin: 0 0 0 0;
+}
+
+h3 > a {
+    transition-duration: 250ms;
+    color: var(--st1);
+    font-family: var(--sans-serif);
+    text-decoration: none;
+    text-decoration: 1px dotted #66AAFF;
+}
+
+h2 > a:hover {
+    transition-duration: 250ms;
+    text-decoration: 1px solid #66AAFF;
 }
 
 .centerdiv {
